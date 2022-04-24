@@ -20,7 +20,8 @@ body {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body {
-    background: #000 url(../images/broken_noise.png) repeat;
+    background:rgb(17, 17, 17) url(../images/broken_noisee.png) repeat;
+    
   }
 }
 
