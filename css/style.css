@@ -10,17 +10,22 @@
 * 	Template Style 
 *
 * ======================================================= */
-body {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.3);
-  background: #000 url(../images/broken_noise.png) repeat;
+
+
+body{     /* changes*/
+  font-family: Georgia, serif;
+  font-weight: 380;
+  font-size: 20px;
+  line-height: 1.8;
+  color:black;
+  background-color: rgb(15, 13, 13);
+ 
 }
+
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body {
-    background:rgb(17, 17, 17) url(../images/broken_noisee.png) repeat;
+    background-color: rgb(15, 13, 13);  /* changes*/
     
   }
 }
@@ -53,42 +58,43 @@ body {
 }
 
 a {
-  color: #ea272d;
+  color: #ebdbdb;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #ea272d;
+  color: #1b1a1a;
   outline: none;
   text-decoration: none;
 }
 
-p {
-  margin-bottom: 30px;
-  font-style: 18px;
+p {  /*changes*/
+  margin-bottom: 18px;
+  font-style: normal;
+  
 }
 
-h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-weight: 400;
+h1, h2, h3, h4, h5, h6, figure {  /* changes*/
+  color: white;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: normal;
   margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #ea272d;
+  background: #632b31;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #ea272d;
+  background: #632b31;
 }
 
 ::selection {
   color: #fff;
-  background: #ea272d;
+  background: #632b31;
 }
 
 .fh5co-nav {
@@ -258,7 +264,7 @@ h1, h2, h3, h4, h5, h6, figure {
   content: '';
   width: 30px;
   height: 2px;
-  background: #ea272d;
+  background: #b94549;
   margin: 0 auto;
 }
 
@@ -1576,9 +1582,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #ea272d;
+  background: #ec3e44;
   color: #fff;
-  border: 2px solid #ea272d;
+  border: 2px solid #ec3e44;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #ec3e44 !important;
